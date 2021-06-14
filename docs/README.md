@@ -1,4 +1,4 @@
-![Class Compendium Social Banner](./img/class_compendium-banner.jpg)
+![Class Compendium Social Banner](./img/class-compendium-banner.jpg)
 
 # Giffyglyph's Class Compendium
 
@@ -9,7 +9,7 @@
 
 Do you want to cap D&D 5e at 10th-level with fully-rebalanced player classes? Then try **Giffyglyph's Class Compendium**: a full rewrite of all 12 PHB classes to support 1st-10th level gameplay!
 
-* [Read the Latest PDF (v2.1.2)](https://github.com/giffyglyph/giffyglyphs-monster-maker/raw/master/releases/giffyglyphs_monster_maker_v2_1_2.pdf)
+* [Read the Latest PDF (v1.1.0)](hhttps://github.com/giffyglyph/giffyglyphs-class-compendium/releases/download/v1.1.0/giffyglyphs_class_compendium_v1_1_0.pdf)
 * [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-monster-maker/blob/master/docs/CHANGELOG.md) 
 
 ## Features
@@ -27,7 +27,7 @@ Do you want to cap D&D 5e at 10th-level with fully-rebalanced player classes? Th
 * **Warlock:** Completely rebalanced pact boons, and a new wand of destruction.
 * **Wizard:** Master your spellcrafting with spellbooks and arcane research.
 
-| Cover                                                    | Chapters (v1.1.2)                                           |
+| Cover                                                    | Chapters (v1.1.0)                                           |
 | -------------------------------------------------------- | ----------------------------------------------------------- |
 | <img src="./img/class-compendium-cover.jpg" width="100%"> | <img src="./img/class-compendium-contents.jpg" width="100%"> |
 
