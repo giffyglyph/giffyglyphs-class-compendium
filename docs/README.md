@@ -10,7 +10,7 @@
 Do you want to cap D&D 5e at 10th-level with fully-rebalanced player classes? Then try **Giffyglyph's Class Compendium**: a full rewrite of all 12 PHB classes to support 1st-10th level gameplay!
 
 * [Read the Latest PDF (v1.1.0)](hhttps://github.com/giffyglyph/giffyglyphs-class-compendium/releases/download/v1.1.0/giffyglyphs_class_compendium_v1_1_0.pdf)
-* [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-monster-maker/blob/master/docs/CHANGELOG.md) 
+* [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-class-compendium/blob/master/docs/CHANGELOG.md) 
 
 ## Features
 
