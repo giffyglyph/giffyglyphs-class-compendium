@@ -1,0 +1,141 @@
+{
+	"output":{
+		"filename":"giffyglyphs_rakish_rogue"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Rakish Rogue",
+			"long":"Giffyglyph's Rakish Rogue"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Rogue"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Rakish Rogue",
+			"blurb":"<p>You are a rogue, a master of stealth and deception. You thrive in the shadows where your cunning focus can best exploit any situation. But as you strike out into the world, what kind of rogue will you choose to be?</p><p>Are you a thief, stealing gold and secrets from your marks? Are you a trickster, masking your true intent with clever illusions? Or are you an assassin, removing enemies one by one with cold, lethal precision?</p><p>Whatever your focus, <i>Giffyglyph's Rakish Rogue</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use your rogue's focus to help exploit situations.",
+				"Roguish exploits—take advantage of your enemies with new, roguish actions.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"rogue",
+					"title":"The Rogue",
+					"id":"the-rogue",
+					"description":"Be a rakish rogue."
+				},
+				{
+					"filename":"rogue_subclasses",
+					"title":"Roguish Archetypes",
+					"id":"rogue-subclasses",
+					"description":"Choose your own Roguish Archetype.",
+					"fragments":[
+						"rogue_subclasses_thief"
+					]
+				},
+				{
+					"filename":"rogue_variants",
+					"title":"Variant Dials",
+					"id":"rogue-variants",
+					"description":"Customise the rogue with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

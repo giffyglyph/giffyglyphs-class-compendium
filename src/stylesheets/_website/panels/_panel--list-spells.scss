@@ -1,0 +1,49 @@
+.panel--list-spells {
+
+  .panel__body {
+
+    .table {
+      @include table-column(1, center, 5rem);
+    }
+
+    thead {
+      display: none;
+    }
+
+    h5 {
+      background: mix($panel--list__header--bg, $panel--list__section--bg, 35%);
+      color: $panel--list__header--bg;
+      text-align: center;
+      font-weight: bold;
+      font-family: $font-body-sans-caps;
+      font-size: 1rem;
+      margin: 0;
+      line-height: 2;
+
+      + * {
+        margin-top: 0;
+      }
+    }
+
+    tr.ee td:last-child::before,
+    tr.xgte td:last-child::before {
+      margin-left: 2px;
+      opacity: .5;
+      font-weight: bold;
+      color: $panel--list__header--bg;
+      float: right;
+      font-size: smaller;
+      position: relative;
+      top: 1px;
+      margin-right: -2px;
+    }
+
+    tr.ee td:last-child::before {
+      content: "EE";
+    }
+
+    tr.xgte td:last-child::before {
+      content: "XGtE";
+    }
+  }
+}

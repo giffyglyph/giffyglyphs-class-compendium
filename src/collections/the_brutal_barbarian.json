@@ -1,0 +1,143 @@
+{
+	"output":{
+		"filename":"giffyglyphs_brutal_barbarian"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Brutal Barbarian",
+			"long":"Giffyglyph's Brutal Barbarian"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Barbarian"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Brutal Barbarian",
+			"blurb":"<p>You are a barbarian, a force of primal power and rage. There are few problems you can't solve with a strong arm and a sharp axe. But as you strike out into the world, what kind of barbarian will you choose to be?</p><p>Are you a brute, charging into battle with furious abandon and bloodlust? Are you a survivor, tough and hardy, using your honed skills and knowledge to thrive in the wilds? Or are you a leader, decisive and commanding as you threaten enemies and rally allies?</p><p>Whatever your focus, <i>Giffyglyph's Brutal Barbarian</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use your barbarian brutality to help dominate the battlefield.",
+				"Brutal maneuvers—crush your enemies in combat with new, martial actions.",
+				"New subclasses and subclass options—choose your barbaric specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"barbarian",
+					"title":"The Barbarian",
+					"id":"the-barbarian",
+					"description":"Be a brutal barbarian."
+				},
+				{
+					"filename":"barbarian_subclasses",
+					"title":"Primal Paths",
+					"id":"barbarian-subclasses",
+					"description":"Choose your own Primal Path.",
+					"fragments":[
+						"barbarian_subclasses_berserker",
+						"barbarian_subclasses_conqueror",
+						"barbarian_subclasses_fanatic"
+					]
+				},
+				{
+					"filename":"barbarian_variants",
+					"title":"Variant Dials",
+					"id":"barbarian-variants",
+					"description":"Customise the barbarian with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

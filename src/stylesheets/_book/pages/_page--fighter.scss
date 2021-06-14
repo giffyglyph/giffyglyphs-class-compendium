@@ -1,0 +1,12 @@
+.page--fighter {
+
+  .table--fighter {
+    @include table-column(1, center, 10%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 10%);
+    @include table-column(4, center, 10%);
+    @include table-column(5, center, 10%);
+    @include table-column(6, center, 10%);
+    @include table-column(7, left, 40%);
+  }
+}

@@ -1,0 +1,21 @@
+.page--paladin {
+
+  .table--paladin {
+    @include table-column(1, center, 10%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 10%);
+    @include table-column(4, center, 10%);
+    @include table-column(5, center, 11%);
+    @include table-column(6, left, 49%);
+  }
+
+  .tables--transgression .table {
+    @include table-column(1, center, 20%);
+    @include table-column(2, left, 80%);
+  }
+  
+  .tables--spellcasting .table {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+}

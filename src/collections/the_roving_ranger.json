@@ -1,0 +1,145 @@
+{
+	"output":{
+		"filename":"giffyglyphs_roving_ranger"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Roving Ranger",
+			"long":"Giffyglyph's Roving Ranger"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Ranger"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Roving Ranger",
+			"blurb":"<p>You are a ranger, a hunter of wild prey. No creature can escape you forever—everything leaves a trail, and you know just how to follow those tracks. But as you strike out into the world, what kind of ranger will you choose to be?</p><p>Are you a subtle hunter, using stealth and cunning to capture your prey? Are you a crafty trapper, using bait and bear traps? Or are you a fierce striker, tough and wild, overwhelming prey with sword and bow?</p><p>Whatever your focus, <i>Giffyglyph's Roving Ranger</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use scrap to create improvised tools and equipment.",
+				"Ranger traps—bait, capture, and control your prey with new ranger traps.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"ranger",
+					"title":"The Ranger",
+					"id":"the-ranger",
+					"description":"Be a roving ranger.",
+					"fragments":[
+						"ranger_instincts",
+						"ranger_traps"
+					]
+				},
+				{
+					"filename":"ranger_subclasses",
+					"title":"Ranger Archetypes",
+					"id":"ranger-subclasses",
+					"description":"Choose your own Ranger Archetype.",
+					"fragments":[
+						"ranger_subclasses_feywalker"
+					]
+				},
+				{
+					"filename":"ranger_variants",
+					"title":"Variant Dials",
+					"id":"ranger-variants",
+					"description":"Customise the ranger with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+.page--ranger-variants {
+
+  .tables--variant-features .table {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+}

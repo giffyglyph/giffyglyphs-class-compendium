@@ -1,0 +1,85 @@
+.theme--pf {
+
+  .panel--list-spells .panel__body h5 {
+    background: #929292;
+  }
+
+  .page--bard {
+
+    .table--bard {
+      thead tr:first-of-type th:nth-of-type(7),
+      thead tr:first-of-type th:nth-of-type(8),
+      thead tr:last-of-type th:nth-of-type(7),
+      thead tr:last-of-type th:nth-of-type(12),
+      tbody td:nth-of-type(7),
+      tbody td:nth-of-type(12) {
+        border-left-color: grayscale($panel--list__header--bg);
+      }
+    }
+  }
+
+  .page--cleric {
+
+    .table--cleric {
+      thead tr:first-of-type th:nth-of-type(5),
+      thead tr:first-of-type th:nth-of-type(6),
+      thead tr:last-of-type th:nth-of-type(5),
+      thead tr:last-of-type th:nth-of-type(10),
+      tbody td:nth-of-type(5),
+      tbody td:nth-of-type(10) {
+        border-left-color: grayscale($panel--list__header--bg);
+      }
+    }
+  }
+
+  .page--druid {
+
+    .table--druid {
+      thead tr:first-of-type th:nth-of-type(5),
+      thead tr:first-of-type th:nth-of-type(6),
+      thead tr:last-of-type th:nth-of-type(5),
+      thead tr:last-of-type th:nth-of-type(10),
+      tbody td:nth-of-type(5),
+      tbody td:nth-of-type(10) {
+        border-left-color: grayscale($panel--list__header--bg);
+      }
+    }
+  }
+
+  .page--wizard {
+
+    .table--wizard {
+
+      thead tr:first-of-type th:nth-of-type(4),
+      thead tr:first-of-type th:nth-of-type(5),
+      thead tr:last-of-type th:nth-of-type(4),
+      thead tr:last-of-type th:nth-of-type(9),
+      tbody td:nth-of-type(4),
+      tbody td:nth-of-type(9) {
+        border-left-color: grayscale($panel--list__header--bg);
+      }
+    }
+  }
+
+  .page--section {
+
+    .page__chapter__description {
+      color: grayscale(#b55afb);
+    }
+  }
+
+  .page--faq {
+
+    a:not(.button) {
+    color: inherit;
+    }
+  }
+
+  .panel--list-spells .panel__body {
+  
+    tr.ee td:last-child::before,
+    tr.xgte td:last-child::before {
+      color: grayscale($panel--list__header--bg);
+    }
+  }
+}

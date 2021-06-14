@@ -1,0 +1,10 @@
+.page--ranger {
+
+  .table--ranger {
+    @include table-column(1, center, 10%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 10%);
+    @include table-column(4, center, 10%);
+    @include table-column(5, left, 60%);
+  }
+}

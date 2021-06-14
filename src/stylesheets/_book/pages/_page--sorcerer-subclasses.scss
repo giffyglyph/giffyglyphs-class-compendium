@@ -1,0 +1,20 @@
+.page--sorcerer-subclasses {
+
+  .table--draconic-spells {
+    @include table-column(1, center, 30%);
+    @include table-column(2, left, 70%);
+  }
+
+  .table--draconic-ancestor {
+    @include table-column(1, center, 7%);
+    @include table-column(2, left, 11%);
+    @include table-column(3, left, 13%);
+    @include table-column(4, left, 14%);
+    @include table-column(5, left, 13%);
+    @include table-column(6, left, 43%);
+
+    tr.header td {
+      width: 100%;
+    }
+  }
+}

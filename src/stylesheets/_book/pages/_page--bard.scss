@@ -1,0 +1,56 @@
+.page--bard {
+
+  .table--bard {
+    @include table-column(1, center, 6%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 10%);
+    @include table-column(4, center, 10%);
+    @include table-column(5, center, 7.5%);
+    @include table-column(6, center, 7%);
+    @include table-column(7, center, 4%);
+    @include table-column(8, center, 4%);
+    @include table-column(9, center, 4%);
+    @include table-column(10, center, 4%);
+    @include table-column(11, center, 4%);
+    @include table-column(12, left, 29.5%);
+
+    th {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    thead tr:first-of-type {
+
+      th:nth-of-type(7) {
+        width: 20%;
+      }
+
+      th:nth-of-type(8) {
+        width: 29%;
+      }
+
+      th:last-child {
+        text-align: left;
+        padding-left: 7px;
+      }
+    }
+
+    thead tr:not(:first-of-type) {
+      margin-top: -22.5px;
+    }
+
+    .spacer {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+
+    thead tr:first-of-type th:nth-of-type(7),
+    thead tr:first-of-type th:nth-of-type(8),
+    thead tr:last-of-type th:nth-of-type(7),
+    thead tr:last-of-type th:nth-of-type(12),
+    tbody td:nth-of-type(7),
+    tbody td:nth-of-type(12) {
+      border-left-color: $panel--list__header--bg;
+    }
+  }
+}

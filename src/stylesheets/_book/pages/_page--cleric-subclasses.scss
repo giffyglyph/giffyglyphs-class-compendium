@@ -1,0 +1,7 @@
+.page--cleric-subclasses {
+
+  .table--life-spells {
+    @include table-column(1, center, 25%);
+    @include table-column(2, left, 75%);
+  }
+}

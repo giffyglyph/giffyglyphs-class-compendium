@@ -1,0 +1,145 @@
+{
+	"output":{
+		"filename":"giffyglyphs_supreme_sorcerer"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Supreme Sorcerer",
+			"long":"Giffyglyph's Supreme Sorcerer"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Sorcerer"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Supreme Sorcerer",
+			"blurb":"<p>You are a sorcerer, a wild font of raw, arcane power. Magic is in your blood and your soul, yearning to be set free. But as you strike out into the world, what kind of sorcerer will you choose to be?</p><p>Are you an explorer, seeking knowledge and strength to help master your inner power? Are you a manipulator, using sorcery to subdue and dominate your enemies? Or are you a despoiler, bringing all to ruin with fierce, destructive sorcery?</p><p>Whatever your focus, <i>Giffyglyph's Supreme Sorcerer</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and prepare for adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"Drop spell slots and take full control of your spellcasting with sorcery points.",
+				"Restore arcane power with Sorcerous Recovery.",
+				"Transform into an arcane avatar with Metamorphosis.",
+				"New subclasses and subclass options—choose your sorcerous speciality from the very first level.",
+				"Expand your origin with origin spells and metamagics.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"sorcerer",
+					"title":"The Sorcerer",
+					"id":"the-sorcerer",
+					"description":"Be a supreme sorcerer.",
+					"fragments":[
+						"sorcerer_spells"
+					]
+				},
+				{
+					"filename":"sorcerer_subclasses",
+					"title":"Sorcerous Origins",
+					"id":"sorcerer-subclasses",
+					"description":"Choose your own Sorcerous Origins.",
+					"fragments":[
+						"sorcerer_subclasses_draconic"
+					]
+				},
+				{
+					"filename":"sorcerer_variants",
+					"title":"Variant Dials",
+					"id":"sorcerer-variants",
+					"description":"Customise the sorcerer with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

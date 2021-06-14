@@ -1,0 +1,146 @@
+{
+	"output":{
+		"filename":"giffyglyphs_brilliant_bard"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Brilliant Bard",
+			"long":"Giffyglyph's Brilliant Bard"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Bard"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Brilliant Bard",
+			"blurb":"<p>You are a bard, a master of words and songs and sounds. All the world is a stage—and you are the main performance. But as you strike out into the world, what kind of bard will you choose to be?</p><p>Are you a singer, stirring emotion in both ally and enemy with your powerful voice? Are you a writer, penning delicate prose to inspire friends and slander foes? Or are you a performer, dazzling crowds with your skilled act and sharp wit?</p><p>Whatever your focus, <i>Giffyglyph's Brilliant Bard</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use your compositions to help inspire your allies.",
+				"Master new spells with an expanded spell list.",
+				"New subclasses and subclass options—choose your college from the very first level.",
+				"Consistent resting—recover your strength with a long rest and take control of your adventure.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"bard",
+					"title":"The Bard",
+					"id":"the-bard",
+					"description":"Be a brilliant bard.",
+					"fragments":[
+						"bard_spells"
+					]
+				},
+				{
+					"filename":"bard_subclasses",
+					"title":"Bard Colleges",
+					"id":"bard-subclasses",
+					"description":"Choose your own Bard College.",
+					"fragments":[
+						"bard_subclasses_dance",
+						"bard_subclasses_lore",
+						"bard_subclasses_tongues"
+					]
+				},
+				{
+					"filename":"bard_variants",
+					"title":"Variant Dials",
+					"id":"bard-variants",
+					"description":"Customise the bard with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

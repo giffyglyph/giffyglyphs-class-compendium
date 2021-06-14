@@ -1,0 +1,143 @@
+{
+	"output":{
+		"filename":"giffyglyphs_fearless_fighter"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Fearless Fighter",
+			"long":"Giffyglyph's Fearless Fighter"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Fighter"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Fearless Fighter",
+			"blurb":"<p>You are a fighter, a master of weaponry and warfare. You thrive in battle where your indomitable resolve can turn defeat into victory. But as you strike out into the world, what kind of fighter will you choose to be?</p><p>Are you a champion, overwhelming enemies with your finely honed weapon skills? Are you a commander, fearless and loud, shouting battle orders to your allies? Or are you a defender, tough and observant, protecting allies from the dangers of battle?</p><p>Whatever your focus, <i>Giffyglyph's Fearless Fighter</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use your fighter's resolve to help control the battlefield.",
+				"Martial maneuvers—overwhelm your enemies in combat with new, martial actions.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"fighter",
+					"title":"The Fighter",
+					"id":"the-fighter",
+					"description":"Be a fearless fighter."
+				},
+				{
+					"filename":"fighter_subclasses",
+					"title":"Martial Archetypes",
+					"id":"fighter-subclasses",
+					"description":"Choose your own Martial Archetype.",
+					"fragments":[
+						"fighter_subclasses_champion",
+						"fighter_subclasses_commander",
+						"fighter_subclasses_defender"
+					]
+				},
+				{
+					"filename":"fighter_variants",
+					"title":"Variant Dials",
+					"id":"fighter-variants",
+					"description":"Customise the fighter with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

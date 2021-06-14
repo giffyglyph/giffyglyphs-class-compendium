@@ -1,0 +1,41 @@
+// Styles for tables.
+
+.page--druid-wild-shape {
+
+  .table--wild-shape {
+    @include table-column(1, center, 25%);
+    @include table-column(2, center, 25%);
+    @include table-column(3, center, 25%);
+    @include table-column(4, center, 25%);
+  
+    thead tr:first-of-type th:nth-of-type(2) {
+      width: 75%;
+      font-size: smaller;
+    }
+  }
+  
+  .table--wild-shape-sizes {
+    @include table-column(1, left, 27%);
+    @include table-column(2, center, 12%);
+    @include table-column(3, center, 18%);
+    @include table-column(4, center, 25%);
+    @include table-column(5, center, 18%);
+  }
+  
+  .tables--primal-skin-rarities .table {
+    @include table-column(1, left, 50%);
+    @include table-column(2, center, 50%);
+  }
+  
+  // .druid-wild-shape-essence {
+  
+  //   .attributes .abilities > div {
+  //     padding-top: 6.5px;
+  //     padding-bottom: 6.5px;
+  
+  //     .modifier {
+  //       margin-top: 2px;
+  //     }
+  //   }
+  // }
+}

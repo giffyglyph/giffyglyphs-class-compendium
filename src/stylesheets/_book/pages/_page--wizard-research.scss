@@ -1,0 +1,34 @@
+.page--wizard-research {
+
+  .table--research-dc {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+  
+  .table--research-outcomes {
+    @include table-column(1, center, 22%);
+    @include table-column(2, left, 78%);
+  }
+  
+  .table--research-complications {
+    @include table-column(1, center, 44px);
+  
+    p + ol {
+      margin: 7.5px 0;
+  
+      &.noticed {
+        column-count: 2;
+      }
+    }
+  }
+  
+  .table--research-experiments {
+    @include table-column(1, center, 5rem);
+  }
+  
+  .table--research-results,
+  .table--research-breakthrough {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+}

@@ -1,0 +1,28 @@
+.page--warlock {
+
+  .table--warlock {
+    @include table-column(1, center, 7%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 9%);
+    @include table-column(4, center, 9%);
+    @include table-column(5, center, 9%);
+    @include table-column(6, center, 8%);
+    @include table-column(7, center, 10%);
+    @include table-column(8, left, 38%);
+
+    th:nth-of-type(2),
+    th:nth-of-type(7) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .tables--transgression .table {
+    @include table-column(1, center, 25%);
+    @include table-column(2, left, 75%);
+  }
+  
+  .table--mystic-arcanum {
+    @include table-column(1, center, 42px);
+  }
+}

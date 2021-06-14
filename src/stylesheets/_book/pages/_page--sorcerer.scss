@@ -1,0 +1,27 @@
+.page--sorcerer {
+
+  .table--sorcerer {
+    @include table-column(1, center, 8%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 10%);
+    @include table-column(4, center, 10%);
+    @include table-column(5, center, 9%);
+    @include table-column(6, center, 10%);
+    @include table-column(7, center, 11%);
+    @include table-column(8, left, 32%);
+
+    thead tr:first-child {
+
+      th:nth-child(6),
+      th:nth-child(7) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .tables--spellcasting {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+}

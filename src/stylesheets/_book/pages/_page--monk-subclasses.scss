@@ -1,0 +1,20 @@
+.page--monk-subclasses {
+
+  .table--elementalist-features {
+    @include table-column(1, center, 33%);
+    @include table-column(2, center, 34%);
+    @include table-column(3, center, 33%);
+  }
+  
+  .tables--elementalist-spellcasting .table {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+  }
+  
+  .panel--list-spells .panel__body {
+
+    * + h5 {
+      margin-top: 10px;
+    }
+  }
+}

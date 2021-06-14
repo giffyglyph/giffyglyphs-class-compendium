@@ -1,0 +1,58 @@
+.panel--list-spells {
+
+  .panel__body {
+    padding: 8px 7px 7px;
+
+    thead {
+      display: none;
+    }
+
+    * + h5 {
+      margin-top: 15px;
+    }
+
+    h5 {
+      background: $panel--list__header--bg;
+      color: white;
+      text-align: center;
+      border-radius: 6px;
+      font-weight: 500;
+      line-height: 21px;
+      font-family: $font-body-sans-caps;
+
+
+      + * {
+        margin-top: 9px;
+      }
+    }
+
+    .table--spells {
+      border-radius: 6px;
+      overflow: hidden;
+
+      @include table-column(1, center, 2.55rem);
+      @include table-column(2, left, calc(100% - 2.55rem));
+    }
+
+    tr.ee td:last-child::before,
+    tr.xgte td:last-child::before {
+      margin-left: 2px;
+      opacity: .5;
+      font-weight: bold;
+      color: $panel--list__header--bg;
+      float: right;
+      font-size: smaller;
+      position: relative;
+      top: 1px;
+      margin-right: -2px;
+    }
+
+    tr.ee td:last-child::before {
+      content: "EE";
+    }
+
+    tr.xgte td:last-child::before {
+      content: "XGtE";
+    }
+  }
+}

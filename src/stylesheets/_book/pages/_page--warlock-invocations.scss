@@ -1,0 +1,6 @@
+.page--warlock-invocations {
+
+  .table--invocation-guidelines {
+    @include table-column(1, center, 40px);
+  }
+}

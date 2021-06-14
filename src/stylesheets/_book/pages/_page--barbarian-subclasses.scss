@@ -1,0 +1,14 @@
+.page--barbarian-subclasses {
+
+	.table--attitudes {
+		@include table-column(1, center, 16%);
+		@include table-column(2, left, 84%);
+	}
+
+	.panel--fanaticism {
+
+		.panel__body {
+			text-align: left;
+		}
+	}
+}

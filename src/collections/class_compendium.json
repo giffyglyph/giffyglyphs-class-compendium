@@ -1,0 +1,719 @@
+{
+	"output":{
+		"filename":"giffyglyphs_class_compendium"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Class Compendium",
+			"long":"Giffyglyph's Class Compendium"
+		},
+		"description":"Add some danger and grit to your D&D 5e games with Giffyglyph's Darker Dungeons modular ruleset.",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1uyV8AWvsDQ3jKMpeXn7ZhlPXM8slg_yv/view?usp=sharing"
+		}
+	},
+	"contents":[
+		{
+			"type":"COVER_FRONT",
+			"title":{
+				"highlight":"Giffyglyph's",
+				"main":"Class Compendium"
+			},
+			"icon":{
+				"filename":"half-heart",
+				"css":"margin-top: 10px"
+			},
+			"blurb":"Create bold heroes for your D&D 5e game with new class options",
+			"author":"Giffyglyph"
+		},
+		{
+			"type":"ENDPAPER"
+		},
+		{
+			"type":"PAGE_TITLE",
+			"title":{
+				"highlight":"Giffyglyph's",
+				"main":"Class Compendium"
+			},
+			"icon":{
+				"filename":"half-heart",
+				"css":"transform: scale(1.35); margin-top: 10px"
+			},
+			"thanks":[
+				"<strong>Writing, Art, & Layout:</strong> Giffyglyph",
+				"<strong>Iconography:</strong> <a href='http://www.game-icons.net'>game-icons.net</a>",
+				"<strong>D&D 5e SRD:</strong> Wizards of the Coast",
+				"<span class='spacer'><strong>Discord Defenders:</strong> Lex Raine, Raspilicious</span>",
+				"<strong>Twitch Tyrant:</strong> Strider"
+			],
+			"testers":[
+				"Adam",
+				"Anthoux",
+				"BBGunner96",
+				"CeyowenCt",
+				"Gerald_Mountaindew",
+				"Fabreh",
+				"Filthy Kenku",
+				"HidesHisEyes",
+				"HKYK",
+				"jagerune",
+				"JetrayDadM",
+				"LeVentNoir",
+				"LexRaine",
+				"Raspilicious",
+				"ReskinBordran",
+				"SageDaMage",
+				"Skolas",
+				"Strider",
+				"TDuncker",
+				"Velivanne",
+				"William",
+				"Zieryk",
+				"ZormarRivaks",
+				"and The Cult of 46"
+			],
+			"emptyLines":0
+		},
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Class Compendium",
+			"blurb":"<p>You are an adventurer in a dangerous world of wild monsters, hidden traps, secret ruins, and priceless treasures. But as you strike out into the world, what kind of adventurer will you be?</p><p>Do you throw yourself into the heat of battle, trusting in sword and shield to keep danger at bay? Do you use skill and cunning to outsmart and outmaneuver the enemy? Or do you dabble in arcane powers, twisting the very fabric of reality to suit your agenda?</p><p>Whatever your passion, <i>Giffyglyph's Class Compendium</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New <strong>class resources</strong> to help fuel new, unique, and powerful class features.",
+				"New 10th-level <strong>capstone abilities</strong>.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Consistent recovery rules—customise your campaign with <strong>short</strong> and <strong>long rest</strong> recovery options.",
+				"<strong>Variant dials</strong> to customise your playstyle.",
+				"And more."
+			]
+		},
+		{
+			"type":"PAGE_CONTENTS",
+			"columns":"3",
+			"elements":"page h1, page h2",
+			"extraLines":"11"
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 1",
+				"main":"The Barbarian",
+				"icon":"fas fa-bolt"
+			},
+			"chapters":[
+				{
+					"filename":"barbarian",
+					"title":"The Barbarian",
+					"id":"the-barbarian",
+					"description":"Be a brutal barbarian."
+				},
+				{
+					"filename":"barbarian_subclasses",
+					"title":"Primal Paths",
+					"id":"barbarian-subclasses",
+					"description":"Choose your own Primal Path.",
+					"fragments":[
+						"barbarian_subclasses_berserker",
+						"barbarian_subclasses_conqueror",
+						"barbarian_subclasses_fanatic"
+					]
+				},
+				{
+					"filename":"barbarian_variants",
+					"title":"Variant Dials",
+					"id":"barbarian-variants",
+					"description":"Customise the barbarian with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 2",
+				"main":"The Bard",
+				"icon":"fas fa-music"
+			},
+			"chapters":[
+				{
+					"filename":"bard",
+					"title":"The Bard",
+					"id":"the-bard",
+					"description":"Be a brilliant bard.",
+					"fragments":[
+						"bard_spells"
+					]
+				},
+				{
+					"filename":"bard_subclasses",
+					"title":"Bard Colleges",
+					"id":"bard-subclasses",
+					"description":"Choose your own Bard College.",
+					"fragments":[
+						"bard_subclasses_dance",
+						"bard_subclasses_lore",
+						"bard_subclasses_tongues"
+					]
+				},
+				{
+					"filename":"bard_variants",
+					"title":"Variant Dials",
+					"id":"bard-variants",
+					"description":"Customise the bard with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 3",
+				"main":"The Cleric",
+				"icon":"fas fa-heart"
+			},
+			"chapters":[
+				{
+					"filename":"cleric",
+					"title":"The Cleric",
+					"id":"the-cleric",
+					"description":"Be a capable cleric.",
+					"fragments":[
+						"cleric_spells"
+					]
+				},
+				{
+					"filename":"cleric_subclasses",
+					"title":"Divine Domains",
+					"id":"cleric-subclasses",
+					"description":"Choose your own Divine Domain.",
+					"fragments":[
+						"cleric_subclasses_life"
+					]
+				},
+				{
+					"filename":"cleric_variants",
+					"title":"Variant Dials",
+					"id":"cleric-variants",
+					"description":"Customise the cleric with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 4",
+				"main":"The Druid",
+				"icon":"fas fa-paw"
+			},
+			"chapters":[
+				{
+					"filename":"druid",
+					"title":"The Druid",
+					"id":"the-druid",
+					"description":"Be a dynamic druid.",
+					"fragments":[
+						"druid_spells",
+						"druid_wild_shape"
+					]
+				},
+				{
+					"filename":"druid_subclasses",
+					"title":"Druid Circles",
+					"description":"Choose your own Druid Circle.",
+					"id":"druid-subclasses",
+					"fragments":[
+						"druid_subclasses_beast",
+						"druid_subclasses_land"
+					]
+				},
+				{
+					"filename":"druid_variants",
+					"title":"Variant Dials",
+					"id":"druid-variants",
+					"description":"Customise the druid with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 5",
+				"main":"The Fighter",
+				"icon":"fas fa-shield-alt"
+			},
+			"chapters":[
+				{
+					"filename":"fighter",
+					"title":"The Fighter",
+					"id":"the-fighter",
+					"description":"Be a fearless fighter."
+				},
+				{
+					"filename":"fighter_subclasses",
+					"title":"Martial Archetypes",
+					"id":"fighter-subclasses",
+					"description":"Choose your own Martial Archetype.",
+					"fragments":[
+						"fighter_subclasses_champion",
+						"fighter_subclasses_commander",
+						"fighter_subclasses_defender"
+					]
+				},
+				{
+					"filename":"fighter_variants",
+					"title":"Variant Dials",
+					"id":"fighter-variants",
+					"description":"Customise the fighter with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 6",
+				"main":"The Monk",
+				"icon":"fas fa-hand-paper"
+			},
+			"chapters":[
+				{
+					"filename":"monk",
+					"title":"The Monk",
+					"id":"the-monk",
+					"description":"Be a masterful monk."
+				},
+				{
+					"filename":"monk_subclasses",
+					"title":"Monastic Traditions",
+					"description":"Choose your own Monastic Tradition.",
+					"id":"monk-subclasses",
+					"fragments":[
+						"monk_subclasses_elementalist",
+						"monk_subclasses_openhand"
+					]
+				},
+				{
+					"filename":"monk_variants",
+					"title":"Variant Dials",
+					"id":"monk-variants",
+					"description":"Customise the monk with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 7",
+				"main":"The Paladin",
+				"icon":"fas fa-gavel"
+			},
+			"chapters":[
+				{
+					"filename":"paladin",
+					"title":"The Paladin",
+					"description":"Be a pious paladin.",
+					"id":"the-paladin",
+					"fragments":[
+						"paladin_spells"
+					]
+				},
+				{
+					"filename":"paladin_subclasses",
+					"title":"Sacred Oaths",
+					"description":"Choose your own Sacred Oath.",
+					"id":"paladin-subclasses",
+					"fragments":[
+						"paladin_subclasses_devotion"
+					]
+				},
+				{
+					"filename":"paladin_variants",
+					"title":"Variant Dials",
+					"id":"paladin-variants",
+					"description":"Customise the paladin with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 8",
+				"main":"The Ranger",
+				"icon":"fas fa-tree"
+			},
+			"chapters":[
+				{
+					"filename":"ranger",
+					"title":"The Ranger",
+					"id":"the-ranger",
+					"description":"Be a roving ranger.",
+					"fragments":[
+						"ranger_instincts",
+						"ranger_traps"
+					]
+				},
+				{
+					"filename":"ranger_subclasses",
+					"title":"Ranger Archetypes",
+					"id":"ranger-subclasses",
+					"description":"Choose your own Ranger Archetype.",
+					"fragments":[
+						"ranger_subclasses_feywalker"
+					]
+				},
+				{
+					"filename":"ranger_variants",
+					"title":"Variant Dials",
+					"id":"ranger-variants",
+					"description":"Customise the ranger with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 9",
+				"main":"The Rogue",
+				"icon":"fas fa-dice"
+			},
+			"chapters":[
+				{
+					"filename":"rogue",
+					"title":"The Rogue",
+					"id":"the-rogue",
+					"description":"Be a rakish rogue."
+				},
+				{
+					"filename":"rogue_subclasses",
+					"title":"Roguish Archetypes",
+					"id":"rogue-subclasses",
+					"description":"Choose your own Roguish Archetype.",
+					"fragments":[
+						"rogue_subclasses_thief"
+					]
+				},
+				{
+					"filename":"rogue_variants",
+					"title":"Variant Dials",
+					"id":"rogue-variants",
+					"description":"Customise the rogue with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 10",
+				"main":"The Sorcerer",
+				"icon":"fas fa-fire"
+			},
+			"chapters":[
+				{
+					"filename":"sorcerer",
+					"title":"The Sorcerer",
+					"id":"the-sorcerer",
+					"description":"Be a supreme sorcerer.",
+					"fragments":[
+						"sorcerer_spells"
+					]
+				},
+				{
+					"filename":"sorcerer_subclasses",
+					"title":"Sorcerous Origins",
+					"id":"sorcerer-subclasses",
+					"description":"Choose your own sorcerous origin.",
+					"fragments":[
+						"sorcerer_subclasses_draconic"
+					]
+				},
+				{
+					"filename":"sorcerer_variants",
+					"title":"Variant Dials",
+					"id":"sorcerer-variants",
+					"description":"Customise the sorcerer with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 11",
+				"main":"The Warlock",
+				"icon":"fas fa-eye"
+			},
+			"chapters":[
+				{
+					"filename":"warlock",
+					"title":"The Warlock",
+					"id":"the-warlock",
+					"description":"Be a wicked warlock.",
+					"fragments":[
+						"warlock_spells"
+					]
+				},
+				{
+					"filename":"warlock_subclasses",
+					"title":"Patrons",
+					"id":"warlock-subclasses",
+					"description":"Choose your Eldritch Patron.",
+					"fragments":[
+						"warlock_subclasses_fiend"
+					]
+				},
+				{
+					"filename":"warlock_boons",
+					"title":"Pact Boons",
+					"id":"warlock-boons",
+					"description":"Receive a Pact Boon from your patron.",
+					"fragments":[
+						"warlock_boons_blade",
+						"warlock_boons_chain",
+						"warlock_boons_tome",
+						"warlock_boons_wand"
+					]
+				},
+				{
+					"filename":"warlock_invocations",
+					"title":"Eldritch Invocations",
+					"id":"warlock-invocations",
+					"description":"Learn Eldritch Invocations from your patron."
+				},
+				{
+					"filename":"warlock_variants",
+					"title":"Variant Dials",
+					"id":"warlock-variants",
+					"description":"Customise the warlock with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Part 12",
+				"main":"The Wizard",
+				"icon":"fas fa-book"
+			},
+			"chapters":[
+				{
+					"filename":"wizard",
+					"title":"The Wizard",
+					"description":"Be a wondrous wizard.",
+					"id":"the-wizard",
+					"fragments":[
+						"wizard_spells",
+						"wizard_spellscript",
+						"wizard_spellbook",
+						"wizard_research"
+					]
+				},
+				{
+					"filename":"wizard_subclasses",
+					"title":"Arcane Traditions",
+					"description":"Choose your own Arcane Tradition.",
+					"id":"wizard-subclasses",
+					"fragments":[
+						"wizard_subclasses_evocation"
+					]
+				},
+				{
+					"filename":"wizard_variants",
+					"title":"Variant Dials",
+					"id":"wizard-variants",
+					"description":"Customise the wizard with variant options."
+				}
+			]
+		},
+		{
+			"type":"SECTION",
+			"title":{
+				"highlight":"Appendicies",
+				"main":"The Extras",
+				"icon":"fas fa-question-circle"
+			},
+			"isAppendix":"true",
+			"chapters":[
+				{
+					"filename":"beyond_10th_level",
+					"title":"Beyond 10th-level",
+					"id":"beyond-10th-level",
+					"description":"Advance beyond 10th-level."
+				},
+				{
+					"filename":"faq",
+					"title":"FAQ",
+					"id":"faq",
+					"description":"Frequently asked questions."
+				}
+			]
+		},
+		{
+			"type":"ADVERTS",
+			"isAppendix":"true",
+			"icon":{
+				"filename":"half-heart",
+				"css":"transform: scale(1.35); margin-top: 10px"
+			},
+			"adverts":[
+				{
+					"title": "Darker Dungeons",
+					"blurb": "Want to make your D&D 5e campaign more deadly for your players? Then try <strong>Giffyglyph's Darker Dungeons</strong>, 150+ pages of modular rules, tweaks, and advice:",
+					"features":[
+						"Manage equipment and gear with the <strong>Active Inventory</strong> system.",
+						"Track <strong>survival conditions</strong> in your game with hunger, thirst, and fatigue.",
+						"Add lingering <strong>wounds and injuries</strong> to combat.",
+						"Add risk to casting magic with <strong>magical burnout</strong>.",
+						"Create <strong>randomised characters</strong> and <strong>0th-level rookies</strong>.",
+						"And more."
+					],
+					"link":"giffyglyph.com/darkerdungeons"
+				},
+				{
+					"title":"Roll20 Character Sheet",
+					"blurb":"Want to play <i>Giffyglyph's Darker Dungeons</i> online with Roll20? Then try <strong>Giffyglyph's Roll20 Character Sheet</strong>, a fully-featured and automated sheet compatible with any 5e game:",
+					"features":[
+						"A brand <strong>new layout and design</strong>.",
+						"6 carefully laid-out <strong>tabs, panels, and options</strong>.",
+						"Compatible with <strong>any D&D 5e game</strong>.",
+						"Full drag-and-drop <strong>compendium support</strong>.",
+						"<strong>Track your inventory</strong> using weight or slots.",
+						"Toggle <strong>Darker Dungeons modules</strong> on or off to suit your own game.",
+						"And more."
+					],
+					"link":"giffyglyph.com/darkerdungeons"
+				},
+				{
+					"title":"Monster Maker",
+					"blurb":"Want to make some new D&D 5e monsters in just a few seconds? Then try <strong>Giffyglyph's Monster Maker</strong>, 60+ pages of monster tables, tweaks, and advice:",
+					"features":[
+						"Swap challenge ratings for easy <strong>monster levels</strong>.",
+						"Build minions, elites, and solo monsters with simple <strong>monster stats</strong>.",
+						"Give monsters an identity with <strong>monster roles</strong>.",
+						"Add <strong>traits & powers</strong> for variety in your combat.",
+						"Use <strong>freeform attacks</strong> for dynamic encounters.",
+						"Build encounters in seconds with <strong>monster points</strong>.",
+						"Run multi-phase <strong>boss encounters</strong>.",
+						"And more."
+					],
+					"link":"giffyglyph.com/monstermaker"
+				},
+				{
+					"title":"Monster Maker App",
+					"blurb":"Want to create some new monsters using your phone or computer? Then try <strong>Giffyglyph's Monster Maker webapp</strong>:",
+					"features":[
+						"Create your own <strong>monster vault</strong> in a few clicks.",
+						"Build <strong>minions, standards, elites, & solos</strong>.",
+						"Apply <strong>monster roles</strong> for quick, balanced variety.",
+						"<strong>Save</strong> your monster vault for later use.",
+						"Customize monsters with <strong>traits, powers, & notes</strong>.",
+						"<strong>Export</strong> your vault monsters to share with others.",
+						"Build monsters in either <strong>quickstart</strong> or <strong>manual</strong> modes.",
+						"Works on phone, tablet, or computer with a <strong>mobile-friendly</strong> and fully-responsive layout.",
+						"And more."
+					],
+					"link":"giffyglyph.com/monstermaker/app"
+				}
+			]
+		},
+		{
+			"type":"ENDPAPER"
+		},
+		{
+			"type":"COVER_BACK",
+			"title":"Unleash your<br/>True Potential",
+			"blurb":[
+				"You are an adventurer, thrust into a dangerous world of wild monsters, hidden traps, secret ruins, and priceless treasures. As you strike out into the world, what kind of adventurer will you be?",
+				"This supplement offers new rules, options, and mechanics to help you harness your inner potential from levels 1-10."
+			],
+			"features": [
+				"New <strong>class resources</strong> and<br/><strong>class features</strong> for levels 1-10",
+				"New <strong>10th-level capstone</strong> abilities",
+				"New <strong>subclasses</strong> and <strong>subclass<br/>options</strong>—choose your specialty<br/>from <strong>1st-level</strong>",
+				"Consistent recovery rules—customise<br/>your campaign with <strong>short rest</strong><br/>and <strong>long rest</strong> recovery options",
+				"Customise your class rules to suit<br/>your campaign with <strong>variant dials</strong>"
+			],
+			"author":"Giffyglyph"
+		}
+	],
+	"patrons":{
+		"total": 287,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"Lex Raine",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

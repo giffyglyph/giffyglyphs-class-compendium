@@ -1,0 +1,144 @@
+{
+	"output":{
+		"filename":"giffyglyphs_capable_cleric"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Capable Cleric",
+			"long":"Giffyglyph's Capable Cleric"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Cleric"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Capable Cleric",
+			"blurb":"<p>You are a cleric, a conduit of divine power. In a dark and dangerous world, your faith in a higher power keeps you strong. But as you strike out into the world, what kind of cleric will you choose to be?</p><p>Are you an attendant, using your divine power to help your allies and share your faith? Are you a zealot, waging holy war against the enemies of your deity? Or are you a herald, spreading your faith to the faithless with words and with weapons?</p><p>Whatever your focus, <i>Giffyglyph's Capable Cleric</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"New class resources—use your blessed divinity to spread the world and will of your deity.",
+				"Master new spells and expand your cleric powers with an expanded spell list.",
+				"New subclasses and subclass options—choose your domain from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"cleric",
+					"title":"The Cleric",
+					"id":"the-cleric",
+					"description":"Be a capable cleric.",
+					"fragments":[
+						"cleric_spells"
+					]
+				},
+				{
+					"filename":"cleric_subclasses",
+					"title":"Divine Domains",
+					"id":"cleric-subclasses",
+					"description":"Choose your own Divine Domain.",
+					"fragments":[
+						"cleric_subclasses_life"
+					]
+				},
+				{
+					"filename":"cleric_variants",
+					"title":"Variant Dials",
+					"id":"cleric-variants",
+					"description":"Customise the cleric with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

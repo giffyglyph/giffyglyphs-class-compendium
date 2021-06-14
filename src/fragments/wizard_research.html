@@ -1,0 +1,178 @@
+<html>
+	<body>
+		<book>
+			<page class="page page--generic page--wizard-research">
+				<h2 id="wizard-research" data-icon="spellbook">Spell Research</h2>
+				<p>As a student of the arcane, you are able to learn new wizard spells through careful study, research, and magical—oftentimes <i>dangerous</i>—experimentation.</p>
+				<p>Spend your downtime running experiments and expand your spellbook with new arcane knowledge.</p>
+
+				<example class="panel panel--example panel--example--placeholder">
+					<section class="panel__body">
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+					</section>
+				</example>
+
+				<!-- <example>
+					<section class="panel__body">
+						<p>Bellamy leaned back with a yawn, stretching her stiff shoulders. She'd been reading for <i>hours</i> about "Modern Spell Writing Patterns" and "Popular Spellscript Frameworks"—sheer agony. But she was close to a breakthrough, she could <i>feel</i> it. A little more research and that <i>Remove Curse</i> spell would be within reach...</p>
+					</section>
+				</example> -->
+
+				<h3>Performing Research</h3>
+				<p>A wizard knows that to learn, you must study—and that means <i>experiments</i>. To perform some arcane research, there are four basic steps:</p>
+
+				<ol>
+					<li>
+						<p><strong>Define your Research Topic:</strong> Choose a spell from the wizard spell list that you want to learn. The spell must be of a level that you have spell slots for.</p>
+						<p>The difficulty of your research is DC 5 + five times the spell level of your target spell.</p>
+					</li>
+					<li>
+						<p><strong>Setup your Laboratory:</strong> Assemble your research equipment and laboratory. At a bare minimum, you need access to your spellbook, inks, magical components, and some privacy.</p>
+						<p>For every additional 100 gp you spend setting up your research—hiring assistants, buying components, renting equipment, etc—you gain a +1 bonus to your <i>Research Check</i> (limited to half your wizard level, rounded up) for the current workweek.</p>
+					</li>
+					<li>
+						<p><strong>Make a Research Check:</strong> Once you have everything set up, you can start to run your experiments.</p>
+						<p>After one workweek has passed, make an Intelligence (Arcana) check and see the results using the <i>Spell Research Outcomes</i> table.</p>
+					</li>
+					<li><strong>Make a Complication Check:</strong> Finally, roll 1d10—if you roll less than or equal to the spell level of your research, there was a complication. Make a roll on the <i>Spell Research Complications</i> table.</li>
+				</ol>
+
+				<p>Once your research is resolved, you may choose to run another experiment—if there is downtime to spare.</p>
+
+				<h4>Research Credits</h4>
+				<p>During your experiments and adventures, you may find research notes made by other wizards. These <i>research credits</i> can help you during your studies.</p>
+				<p>When you make a research check, you can spend one research credit to add +2d4 to the result. For every additional research credit you spend, you gain a +1 bonus to the total result.</p>
+				<p><strong>Greater Researcher:</strong> Starting at 8th-level, the research you gain from your first research credit increases from +2d4 to +2d6.</p>
+
+				<col-break></col-break>
+
+				<mechanic class="panel panel--mechanic">
+					<header class="panel__header">
+						<h4 class="panel__title">Spell Research</h4>
+					</header>
+					<section class="panel__body">
+						<p><strong>Research DC:</strong> 5 + (spell level x 5)</p>
+						<p><strong>Check:</strong> 1d20 + your Intelligence (Arcana) modifier</p>
+					</section>
+				</mechanic>
+
+				<list class="panel panel--list">
+					<header class="panel__header">
+						<h4 class="panel__title">Spell Research Outcomes</h4>
+					</header>
+					<section class="panel__body">
+						<table class="table table--research-outcomes">
+							<thead>
+								<tr>
+									<th>Result</th>
+									<th>Outcome</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>−10 or lower</td>
+									<td><strong>Critical Failure:</strong> Your research causes an immediate, automatic complication. Roll on the <i>Spell Research Complications</i> table, resolve it, and then make a Complication Check as normal.</td>
+								</tr>
+								<tr>
+									<td>−5 to −9</td>
+									<td><strong>No Progress:</strong> No effect.</td>
+								</tr>
+								<tr>
+									<td>−1 to −4</td>
+									<td><strong>So Close:</strong> Gain a <i>research credit</i>.</td>
+								</tr>
+								<tr>
+									<td>+0 to +9</td>
+									<td><strong>Success:</strong> Your research was successful. Spend 50 gp per spell level to record your new spell in your spellbook.</td>
+								</tr>
+								<tr>
+									<td>+10 or more</td>
+									<td><strong>Critical Success:</strong> Your research was <i>very</i> successful. Spend 20 gp per spell level to record your new spell in your spellbook.</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</list>
+
+				<list class="panel panel--list">
+					<header class="panel__header">
+						<h4 class="panel__title">Spell Research Complications</h4>
+					</header>
+					<section class="panel__body">
+						<table class="table table--research-complications">
+							<thead>
+								<tr>
+									<th>d10</th>
+									<th>Complication</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1-2</td>
+									<td><strong>Destruction:</strong> There was a small fire and you accidentally singed your spellbook—lose one random spell from your spellbook (or the spellbook itself if you have no spells to lose).</td>
+								</tr>
+								<tr>
+									<td>3-5</td>
+									<td>
+										<p><strong>Noticed:</strong> Your experiments have drawn unwanted attention from someone or something who will make your life more difficult, such as:</p>
+										<ol class="noticed">
+											<li>A demon.</li>
+											<li>A higher power.</li>
+											<li>A noble of the land.</li>
+											<li>A thief.</li>
+											<li>A mage hunter.</li>
+											<li>A wild monster.</li>
+											<li>A rival wizard.</li>
+											<li>A zealous cleric.</li>
+											<li>A furious druid.</li>
+											<li>An angry mob.</li>
+										</ol>
+									</td>
+								</tr>
+								<tr>
+									<td>5-8</td>
+									<td>
+										<p><strong>Backfire:</strong> An experiment backfired—you now suffer from a magical affliction. For example:</p>
+										<ol class="backfire">
+											<li>You have turned yourself into a frog.</li>
+											<li>Your skin turns a random color.</li>
+											<li>All of your hair falls out.</li>
+											<li>Your teeth turn sharp and black.</li>
+											<li>Your head swells to twice its normal size.</li>
+											<li>You periodically vomit up living slugs.</li>
+											<li>Anything you touch turns red for 1 hour.</li>
+											<li>Your body grows a thick layer of animal fur.</li>
+											<li>Your hands are turned into crab-like pincers.</li>
+											<li>Words you speak are reversed.</li>
+										</ol>
+									</td>
+								</tr>
+								<tr>
+									<td>8-10</td>
+									<td><strong>Accident:</strong> Your research has caused an accident—you owe 1d10 x 10 gp per spell level to cover the damages.</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</list>
+
+				<example class="panel panel--example panel--example--placeholder">
+					<section class="panel__body">
+						<p>&nbsp;</p>
+					</section>
+				</example>
+
+				<!-- <example>
+					<section class="panel__body">
+						<p>Bellamy wants to research <i>Magic Circle</i>—a 3rd-level spell (DC 20). She spends 100 gp setting up her laboratory (a +1 bonus). At the end of one workweek, Bellamy makes a research check and rolls a total of 16—success! She spends 150 gp to write the spell into her spellbook, and then rolls her complication check...</p>
+					</section>
+				</example> -->
+			</page>
+		</book>
+	</body>
+</html>

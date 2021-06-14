@@ -1,0 +1,12 @@
+.page--druid-subclasses {
+
+  .table--land-spells {
+    @include table-column(1, center, 21%);
+    @include table-column(2, left, 79%);
+
+    th:first-child {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+	"output":{
+		"filename":"giffyglyphs_masterful_monk"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Masterful Monk",
+			"long":"Giffyglyph's Masterful Monk"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Monk"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Masterful Monk",
+			"blurb":"<p>You are a monk, a master of martial arts and mystic ki. With meditation and mantras, you channel the spiritual energies that flow through your body into supernatural power. But as you strike out into the world, what kind of monk will you choose to be?</p><p>Are you a fighter, overwhelming your enemies with fists of fury? Are you a spiritualist, forging connections with the energies of the world? Or are you a shadow, silently removing threats one life at a time?</p><p>Whatever your focus, <i>Giffyglyph's Masterful Monk</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"Monk mantras—take your enemy's power and turn it against them with new, monk mantras.",
+				"Meditate to recover your ki.",
+				"Unleash your flurry of blows with lightning speed.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"monk",
+					"title":"The Monk",
+					"id":"the-monk",
+					"description":"Be a masterful monk."
+				},
+				{
+					"filename":"monk_subclasses",
+					"title":"Monastic Traditions",
+					"id":"monk-subclasses",
+					"description":"Choose your own Monastic Tradition.",
+					"fragments":[
+						"monk_subclasses_elementalist",
+						"monk_subclasses_openhand"
+					]
+				},
+				{
+					"filename":"monk_variants",
+					"title":"Variant Dials",
+					"id":"monk-variants",
+					"description":"Customise the monk with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

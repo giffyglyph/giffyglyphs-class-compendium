@@ -1,0 +1,24 @@
+.page--ranger-subclasses {
+
+  .table--primal-spellcasting {
+    @include table-column(1, center, 20%);
+    @include table-column(2, center, 20%);
+    @include table-column(3, center, 20%);
+    @include table-column(4, center, 20%);
+    @include table-column(5, center, 20%);
+  
+    thead tr:first-of-type th:nth-of-type(3) {
+      width: 60%;
+      font-size: smaller;
+    }
+  
+    thead tr:not(:first-of-type) {
+      margin-top: -22.5px;
+    }
+  }
+  
+  .table--primal-awareness {
+    @include table-column(1, center, 30%);
+    @include table-column(2, left, 70%);
+  }
+}

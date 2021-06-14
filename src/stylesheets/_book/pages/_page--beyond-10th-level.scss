@@ -1,0 +1,32 @@
+.page--beyond-10th-level {
+
+  .tables--proficiency-bonuses .table {
+    @include table-column(1, center, 50%);
+    @include table-column(2, center, 50%);
+
+    tr.header {
+
+      &::before {
+        display: none;
+      }
+
+      td {
+        width: 100%;
+        justify-content: center;
+
+        &::before {
+          display: none;
+        }
+
+        span {
+          width: 100%;
+          justify-content: center;
+
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

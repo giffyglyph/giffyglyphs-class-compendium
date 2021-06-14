@@ -1,0 +1,9 @@
+.page--fighter-variants {
+
+  .table--variant-features {
+    @include table-column(1, center, 25%);
+    @include table-column(2, center, 25%);
+    @include table-column(3, center, 25%);
+    @include table-column(4, center, 25%);
+  }
+}

@@ -1,0 +1,11 @@
+.page--rogue {
+
+  .table--rogue {
+    @include table-column(1, center, 9%);
+    @include table-column(2, center, 10%);
+    @include table-column(3, center, 8%);
+    @include table-column(4, center, 8%);
+    @include table-column(5, center, 10%);
+    @include table-column(6, left, 55%);
+  }
+}

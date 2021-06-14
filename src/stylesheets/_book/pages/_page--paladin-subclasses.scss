@@ -1,0 +1,7 @@
+.page--paladin-subclasses {
+
+  .table--devotion-spells {
+    @include table-column(1, center, 26%);
+    @include table-column(2, left, 74%);
+  }
+}

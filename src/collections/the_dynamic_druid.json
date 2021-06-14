@@ -1,0 +1,147 @@
+{
+	"output":{
+		"filename":"giffyglyphs_dynamic_druid"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Dynamic Druid",
+			"long":"Giffyglyph's Dynamic Druid"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Druid"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Dynamic Druid",
+			"blurb":"<p>You are a druid, a guardian of the wild world. With primal power, you defend flora and fauna against those who would supplant them with metal and machines. But as you strike out into the world, what kind of druid will you be?</p><p>Do you call on the land to fuel your spells with primal power? Do you draw power from beasts and take on powerful animal forms? Or do you call on the natural elements to defend and destroy?</p><p>Whatever your focus, <i>Giffyglyph's Dynamic Druid</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"Wild shape—shapeshift into animal forms by mastering primal essences, skins, and traits.",
+				"Includes 12 primal essences and 7 traits.",
+				"Become a weald walker and travel the natural world.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your primal power with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"druid",
+					"title":"The Druid",
+					"id":"the-druid",
+					"description":"Be a dynamic druid.",
+					"fragments":[
+            "druid_spells",
+            "druid_wild_shape"
+					]
+				},
+				{
+					"filename":"druid_subclasses",
+					"title":"Druid Circles",
+					"id":"druid-subclasses",
+					"description":"Choose your own Druid Circle.",
+					"fragments":[
+						"druid_subclasses_beast",
+						"druid_subclasses_land"
+					]
+				},
+				{
+					"filename":"druid_variants",
+					"title":"Variant Dials",
+					"id":"druid-variants",
+					"description":"Customise the druid with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

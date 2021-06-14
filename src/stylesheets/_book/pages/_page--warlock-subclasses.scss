@@ -1,0 +1,7 @@
+.page--warlock-subclasses {
+
+  .table--fiend-spells {
+    @include table-column(1, center, 30%);
+    @include table-column(2, left, 70%);
+  }
+}

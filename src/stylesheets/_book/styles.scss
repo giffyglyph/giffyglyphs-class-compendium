@@ -1,0 +1,54 @@
+// Common book abstracts
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// Common book styles
+
+@import 'pages/page--section';
+
+@import 'pages/page--barbarian';
+@import 'pages/page--barbarian-subclasses';
+@import 'pages/page--barbarian-variants';
+@import 'pages/page--bard';
+@import 'pages/page--bard-subclasses';
+@import 'pages/page--beyond-10th-level';
+@import 'pages/page--cleric';
+@import 'pages/page--cleric-subclasses';
+@import 'pages/page--cleric-variants';
+@import 'pages/page--contents';
+@import 'pages/page--druid';
+@import 'pages/page--druid-subclasses';
+@import 'pages/page--druid-variants';
+@import 'pages/page--druid-wild-shape';
+@import 'pages/page--faq';
+@import 'pages/page--fighter';
+@import 'pages/page--fighter-variants';
+@import 'pages/page--monk';
+@import 'pages/page--monk-subclasses';
+@import 'pages/page--monk-variants';
+@import 'pages/page--paladin';
+@import 'pages/page--paladin-subclasses';
+@import 'pages/page--paladin-variants';
+@import 'pages/page--ranger';
+@import 'pages/page--ranger-instincts';
+@import 'pages/page--ranger-subclasses';
+@import 'pages/page--ranger-variants';
+@import 'pages/page--rogue';
+@import 'pages/page--rogue-variants';
+@import 'pages/page--sorcerer';
+@import 'pages/page--sorcerer-subclasses';
+@import 'pages/page--sorcerer-variants';
+@import 'pages/page--warlock';
+@import 'pages/page--warlock-boons';
+@import 'pages/page--warlock-invocations';
+@import 'pages/page--warlock-subclasses';
+@import 'pages/page--warlock-variants';
+@import 'pages/page--wizard';
+@import 'pages/page--wizard-research';
+@import 'pages/page--wizard-spellbook';
+@import 'pages/page--wizard-spellscript';
+
+@import 'panels/panel--list-spells';
+
+@import 'themes/theme-pf';

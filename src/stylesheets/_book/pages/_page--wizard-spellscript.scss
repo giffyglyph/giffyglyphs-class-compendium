@@ -1,0 +1,9 @@
+.page--wizard-spellscript {
+
+  .table--writing-style {
+    @include table-column(1, center, 13%);
+    @include table-column(2, center, 29%);
+    @include table-column(3, center, 29%);
+    @include table-column(4, center, 29%);
+  }
+}

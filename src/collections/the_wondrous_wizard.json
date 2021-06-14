@@ -1,0 +1,147 @@
+{
+	"output":{
+		"filename":"giffyglyphs_wondrous_wizard"
+	},
+	"meta": {
+		"version":"1.1.0",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Wondrous Wizard",
+			"long":"Giffyglyph's Wondrous Wizard"
+		},
+		"description":"Create bold heroes for your D&D 5e game with new class options in Giffyglyph's Class Compendium",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Class Compendium",
+			"Wizard"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"formats":[
+		"book"
+	],
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Wondrous Wizard",
+			"blurb":"<p>You are a wizard, a student of magic and the secret, arcane arts. You have learned to twist the weave of reality with ancient glyphs and sigils. But as you strike out into the world, what kind of wizard will you be?</p><p>Are you an evoker, harnessing the raw power and fury of the elements in your quest for knowledge? Are you a necromancer, bending the frightful forces of death itself to your will? Or are you a diviner, using your knowledge of the future to control the present?</p><p>Whatever your focus, <i>Giffyglyph's Wondrous Wizard</i> introduces new mechanics, features, and subclasses for your D&D 5e character. Add new 1st-10th level options to your campaign and head out into adventure.</p>",
+			"features":[
+				"Revised rules, features, and mechanics for levels 1-10.",
+				"Write arcane knowledge in your own spellbooks with the new spellscript language.",
+				"Spell research—study the arcane arts and master your own spells.",
+				"New subclasses and subclass options—choose your specialty from the very first level.",
+				"Recover your strength with a long rest.",
+				"Variant dials to customise your playstyle.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"wizard",
+					"title":"The Wizard",
+					"id":"the-wizard",
+					"description":"Be a wondrous wizard.",
+					"fragments":[
+						"wizard_spellscript",
+						"wizard_spellbook",
+						"wizard_research",
+						"wizard_spells"
+					]
+				},
+				{
+					"filename":"wizard_subclasses",
+					"title":"Arcane Traditions",
+					"id":"wizard-subclasses",
+					"description":"Choose your own Arcane Tradition.",
+					"fragments":[
+						"wizard_subclasses_evocation"
+					]
+				},
+				{
+					"filename":"wizard_variants",
+					"title":"Variant Dials",
+					"id":"wizard-variants",
+					"description":"Customise the wizard with variant options."
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 294,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}

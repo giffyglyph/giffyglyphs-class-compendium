@@ -1,0 +1,15 @@
+.page--warlock-boons {
+
+  .table--pact-promises,
+  .table--pact-sacrifices,
+  .table--pact-requests {
+    @include table-column(1, center, 14%);
+    @include table-column(2, left, 86%);
+  }
+
+  .tables--chain-familiars .table {
+    @include table-column(1, center, 28%);
+    @include table-column(2, center, 38%);
+    @include table-column(3, center, 34%);
+  }
+}
